@@ -22,3 +22,15 @@ public class Solution {
 		        	count =choc;
 		        	
 		        	while(count>=m){
+int count1 = Math.floorDiv(count, m);
+		        		count = count1 + count%m;
+                          choc += count1;
+		        		}
+		        	
+		        	System.out.println(choc);
+		        		
+		        }
+		        
+    }
+}
+
